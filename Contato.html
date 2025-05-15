@@ -41,7 +41,7 @@
 
     <section class="form-orcamento">
         <h2>Solicite um Orçamento</h2>
-        <form action="#" method="POST">
+        <form id="form-contato">
             <label for="nome" class="label-align">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             
@@ -56,6 +56,9 @@
     
             <button type="submit">Enviar Orçamento</button>
         </form>
+
+        
+        <p id="mensagem-envio"></p>
     </section>
     
     <style>
@@ -63,6 +66,12 @@
             display: block; 
             margin-bottom: 5px; 
             text-align: left; 
+        }
+
+        #mensagem-envio {
+            margin-top: 10px;
+            font-weight: bold;
+            transition: opacity 0.5s ease;
         }
     </style>
 
@@ -76,6 +85,3 @@
         <div class="footer-item">
             <span>Endereço: Rua Vitorino Carmilo, nº 1063 - Barra Funda - SP</span>
         </div>
-    </footer>
-</body>
-</html>
