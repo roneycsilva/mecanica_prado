@@ -1051,3 +1051,8 @@ VALUES (
 7.10 Visualização do EER Driagrama do Bando de Dados Odicina.
 ![image](https://github.com/user-attachments/assets/3de4924c-442f-4277-a378-14606f1040ed)
 
+### 8. Site 
+Site : [https://roneycsilva.github.io/mecanica_prado/](https://roneycsilva.github.io/mecanica_prado/)
+
+
+
